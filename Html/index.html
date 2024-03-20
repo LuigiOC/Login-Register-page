@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Página de Usuario e Login</title>
+
+    <!--Css-->
+       <link rel="stylesheet" href="/css/style.css">
+       <link rel="stylesheet" href="/css/var.css">
+    <!--/Css-->
+
+
+    <!--Js-->
+        <script src="/Js/style.js"></script>
+    <!--/Js-->
+
+    
+</head>
+
+
+<body>
+    <main>
+            <div class="background-blue">  
+            <!--Main-->   
+                <div class="container">
+                    <!--Dark button-->
+                    <div class="btn-darklight">
+                        <img src="/assets/svg/iconedark.svg" alt="" id="img-lightdark"><Button class="btn" onclick="darkButton()"></Button>           
+                    </div>
+                    <!--/Dark button-->
+
+                    <!--Title-->
+                        <div class="container-form">
+                            <h1>Entrar</h1>
+                    <!--/Title-->
+
+                            <!--Formulario-->
+                                <form action="">
+                                    <p>Login</p>
+                                    <input type="email" name="email-user" id="email-user" placeholder="seuemail@gmail.com">
+                                    <div id="worng-email"></div>
+                                    <p>Senha</p>
+                                    <input type="password" name="password-user" id="password-user" placeholder="*******">
+                                    <div id="worng-password"></div>
+                                </form>
+                            <!--/Formulario-->
+
+
+                            <!--Footer Formulario-->
+                            <div class="footer-login">
+                                <p>Esqueceu a senha?</p>
+                                <p><a href="" id="password-remember" onclick="aler()">Clique aqui!  </a></p>
+                            </div>
+                                <button class="btn" id="btn" onclick="login(), val()">Fazer login</button>
+                            <!--/Footer Formulario-->
+                        </div>
+                </div>
+            <!--/Main--> 
+        </div> 
+</main>
+
+</body>
+
+</html>
